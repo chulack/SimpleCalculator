@@ -11,7 +11,7 @@ This is a basic web calcultor that uses a semi mvc set up, any audio used was fo
 - `package.json` - Points to the app's main file and lists its details and dependencies.
 - `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
 - `index.html` - Is the main view. **renderer process**.
-- `/front-end` - all the assets such as the styling, controller, model, etc.
+- `/front-end` - This folder holds all the assets such as the styling, controller, model, etc.
 
 You can learn more about Electron from the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start).
 
