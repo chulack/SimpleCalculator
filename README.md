@@ -1,17 +1,10 @@
-# Main 
+# SimpleCalculator
 
 This is a basic web calcultor that uses a semi mvc set up.
 
 all audio used was found online with a licence of open source.
 
-
-# electron-quick-start
-
 **Clone and run for a quick way to see Electron in action.**
-
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start) within the Electron documentation.
-
-**Use this app along with the [Electron API Demos](https://electronjs.org/#get-started) app for API code examples to help you get started.**
 
 Here are some imporant files/folders to take note of in this Electron application:
 
@@ -20,7 +13,7 @@ Here are some imporant files/folders to take note of in this Electron applicatio
 - `index.html` - Is the main view. **renderer process**.
 - `/front-end` - all the assets such as the styling, controller, model, etc.
 
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start).
+You can learn more about Electron from the [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start).
 
 ## To Use
 
