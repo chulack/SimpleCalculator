@@ -34,4 +34,4 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ## License
 
-[MIT (Open Source)](LICENSE.md)
+[MIT (Open Source)](LICENSE)
