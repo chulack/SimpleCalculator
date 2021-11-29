@@ -2,7 +2,9 @@
 
 This is a basic web calcultor that uses a semi mvc set up, any audio used was found online with a licence of open source. The electron application boilerplates is from  [Electron-Quick-Start](https://github.com/electron/electron-quick-start).
 
-**Clone and run for a quick way to see Electron in action.**
+
+
+**Information on the source code and how to run it**
 
 Here are some imporant files/folders to take note of in this Electron application:
 
