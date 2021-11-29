@@ -4,9 +4,9 @@ This is a basic web calcultor that uses a semi mvc set up, any audio used was fo
 
 
 
-**Information on the source code and how to run it**
+**Here are some imporant files/folders to take note of in this Electron application:**
 
-Here are some imporant files/folders to take note of in this Electron application:
+
 
 - `package.json` - Points to the app's main file and lists its details and dependencies.
 - `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
