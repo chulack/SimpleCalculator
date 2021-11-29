@@ -1,6 +1,5 @@
 "use strict";
 
-//const { Module } = require("module");
 
 let model = new Model;
 
