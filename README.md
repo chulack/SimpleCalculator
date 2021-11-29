@@ -1,8 +1,6 @@
 # SimpleCalculator
 
-This is a basic web calcultor that uses a semi mvc set up.
-
-all audio used was found online with a licence of open source.
+This is a basic web calcultor that uses a semi mvc set up, any audio used was found online with a licence of open source. The electron application boilerplates is from  [Quick Start Guide](https://electronjs.org/docs/latest/tutorial/quick-start).
 
 **Clone and run for a quick way to see Electron in action.**
 
