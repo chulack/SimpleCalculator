@@ -1,3 +1,10 @@
+# Main 
+
+This is a basic web calcultor that uses a semi mvc set up.
+
+all audio used was found online with a licence of open source.
+
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**
@@ -42,4 +49,4 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ## License
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+[MIT (Open Source)](LICENSE.md)
