@@ -28,6 +28,7 @@
 }
 
 
+
 #rowOne #results {
 
 
@@ -88,3 +89,12 @@
 }
 
 
+
+
+/* added to make keyboard events have style like clicking  */
+
+
+.active_True {
+    opacity: 0.9;
+    transform: scaleY(0.9);
+}

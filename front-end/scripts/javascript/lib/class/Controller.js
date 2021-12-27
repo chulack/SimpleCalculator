@@ -14,6 +14,13 @@ class Controller {
     }
 
 
+    static delOneResult() {
+
+        document.querySelector("#results").value  = (document.querySelector("#results").value).substring(0, ((document.querySelector("#results").value).length - 1));
+
+    }
+
+
     // internal methods
 
    static setLastNums() {
@@ -49,6 +56,8 @@ class Controller {
     document.querySelector("#results").value = parseFloat(model.secondToLastEntered) / parseFloat(model.lastEntered);
 
     }
+
+    
 
     // action methods
     static clickAddNum() {
@@ -237,67 +246,40 @@ class Controller {
 
     }
 
-    constructor () {
+    static findNumBTN(e) {
 
-      
-         
+
+        let langTH = 0;
+        if (document.querySelector("#results").value != null) {
+            langTH = document.querySelector("#results").value.length;  
+        } 
+        
+        if(langTH <= 17) {
+            if (e != 0) {
+            document.querySelector("#results").value += e;
+            } else {
+                if(document.querySelector("#results").value != "") {
+                    document.querySelector("#results").value += e;
+
+                }
+            }
+        }
+
+
+    }
+
+    // style actions
+
+    static keyActive(e) {
+
+        setTimeout(()=>{
+            document.querySelector(`${e}`).classList.toggle("active_True")
+     
+         }, 200);
+         document.querySelector(`${e}`).classList.toggle("active_True")
 
     }
 
 
+
 }
-
-// live click calls to actions
-
-document.querySelectorAll('.numBTN').forEach(item => {
-    item.addEventListener('click', e => {
-
-        Controller.inputNum(e);
-
-    })
-  });
-  
-  document.querySelector("#clearBTN").addEventListener("click", () => {
-
-    Controller.clearResults();
-
-  });
-
-
-  document.querySelector("#additionBTN").addEventListener("click", () => {
-
-    Controller.clickAddNum();
-
-  });
-
-  
-  
-  document.querySelector("#equalsBTN").addEventListener("click", () => {
-
-    Controller.calcResults();
-
-  });
-  
-  document.querySelector("#subtractionBTN").addEventListener("click", () => {
-
-    Controller.checkSubNum();
-
-  });
-
-  document.querySelector("#multiplicationBTN").addEventListener("click", () => {
-
-    Controller.checkMultiNum();
-
-  });
-
-  document.querySelector("#divionBTN").addEventListener("click", () => {
-
-    Controller.checkDivNum();
-
-  });
-
-  document.querySelector("#decimalBTN").addEventListener("click", () => {
-
-    Controller.checkDecimal();
-
-  });
